@@ -1,7 +1,7 @@
-package com.luxoft;
+package com.luxoft.calculator;
 
 
-import com.luxoft.calculator.Calc;
+import com.luxoft.calculator.Syntax;
 
 public class MyClass {
 
@@ -18,11 +18,14 @@ public class MyClass {
      */
     public static void main(String[] args){
 
-        printSomething("Good evening");
-        printSomething("sdfsdf");
-        Calc calc = new Calc();
-        System.out.println(calc.sum(6,5));
-        calc.tern(-8);
+//        printSomething("Good evening");
+//        printSomething("sdfsdf");
+        Syntax calc = new Syntax();
+//        System.out.println(calc.sum(6,5));
+//        calc.tern(-8);
+
+//        calc.cond(3);
+        calc.cycles();
     }
 
     private static void printSomething(String message){
