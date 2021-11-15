@@ -8,6 +8,12 @@ public class SuperJet extends Plane{
 
     @Override
     public void fly(int km){
+        for(int i=10; i< km; i++){
+            System.out.println("still flying");
+        }
+    }
+
+    public void fly(long km){
 
     }
 }
