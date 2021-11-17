@@ -1,8 +1,6 @@
 package com.luxoft.calculator;
 
 
-import com.luxoft.calculator.Syntax;
-
 public class MyClass {
 
     //random text

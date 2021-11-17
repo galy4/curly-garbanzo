@@ -3,6 +3,9 @@ package com.luxoft.Exceptions;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.Iterator;
+import java.util.List;
 
 public class Main {
 
@@ -23,8 +26,6 @@ public class Main {
         finally {
             System.out.println(result);
         }
-
-
             method(4, null);
 
     }

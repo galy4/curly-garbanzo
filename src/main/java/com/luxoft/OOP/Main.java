@@ -1,5 +1,6 @@
 package com.luxoft.OOP;
 
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -19,6 +20,5 @@ public class Main {
         new Cat().eat("fish");
 
         new Canon().reload();
-
     }
 }
