@@ -1,17 +1,16 @@
 package com.luxoft.strings;
 
 
-import java.util.Arrays;
-import java.util.Locale;
+import java.util.*;
 
 public class StrArr {
 
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         String str = new String();
         char[] chars = {'a', 'b', 'c'};
         String str1 = new String(chars);
-        byte[] bytes = {10,15,20,52};
+        byte[] bytes = {10, 15, 20, 52};
         String str2 = new String(bytes);
         System.out.println(str);
         System.out.println(str1);
@@ -26,7 +25,7 @@ public class StrArr {
         System.out.println(str4);
 
         String str5 = "ABCJH-$%^$$$@@#$%$%#%$^#$^ssf43535#$^#^#$^#szdgsgsd";
-        String str6 = str5.substring(0, str5.length()/2);
+        String str6 = str5.substring(0, str5.length() / 2);
         System.out.println(str5.codePointCount(5, 15));
         System.out.println(str5.replaceAll("[^A-Za-z0-9]+", ""));
 
@@ -58,9 +57,9 @@ public class StrArr {
         arr4[1] = 2;
         arr4[2] = 3;
 
-        int[] arr5 = {5,6,8};
+        int[] arr5 = {5, 6, 8};
 
-        for(int j=0; j<arr5.length; j++){
+        for (int j = 0; j < arr5.length; j++) {
             System.out.println(arr5[j]);
         }
 
@@ -72,13 +71,13 @@ public class StrArr {
 
 
         String[] copy = Arrays.copyOf(stringArray, 5);
-        for(String item : copy){
+        for (String item : copy) {
             System.out.println(item);
         }
 
         System.out.println(Arrays.deepEquals(stringArray, stringArray2));
         Arrays.sort(stringArray);
-        for(String item : stringArray){
+        for (String item : stringArray) {
             System.out.println(item);
         }
     }
