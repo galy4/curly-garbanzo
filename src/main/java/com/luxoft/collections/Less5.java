@@ -90,7 +90,6 @@ public class Less5 {
         treeMap.put("weekdays", 5d);
         treeMap.put("weekend", 2d);
         treeMap.get("weekend");
-
     }
 
     public static Comparator<School> comparator = new Comparator<School>() {

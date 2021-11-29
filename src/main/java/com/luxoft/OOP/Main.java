@@ -2,9 +2,7 @@ package com.luxoft.OOP;
 
 import com.luxoft.collections.EnumExample;
 
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class Main {
 
