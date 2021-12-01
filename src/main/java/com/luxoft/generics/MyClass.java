@@ -1,5 +1,7 @@
 package com.luxoft.generics;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
@@ -37,7 +39,6 @@ public class MyClass {
 
 
     }
-
     public static void printArr(Integer... args){
         List<Integer> list = Arrays.asList(args);
         for(Integer val:list)

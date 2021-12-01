@@ -44,6 +44,7 @@ public class Syntax {
         return b;
     }
 
+    @Deprecated
     public void cycles(){
         int k=0;
 //        while (k<4){
