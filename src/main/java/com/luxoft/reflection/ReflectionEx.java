@@ -40,6 +40,5 @@ public class ReflectionEx {
         field.setAccessible(true);
         field.setInt(school, 50);
 
-
     }
 }
