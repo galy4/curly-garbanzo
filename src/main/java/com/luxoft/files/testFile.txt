@@ -1,0 +1,6 @@
+This is example
+of text file
+with 3 lines
+Whaaat
+Whaaat
+Whaaat
